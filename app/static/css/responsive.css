@@ -1,0 +1,234 @@
+/*--------------------------------------------------------------------- 
+File Name: responsive.css 
+---------------------------------------------------------------------*/
+
+@media (min-width: 1343px) and (max-width: 1500px) {
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1342px) {
+   
+  
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+    .site-navbar ul li {
+        padding-right: 37px;
+    }
+   
+   ul.recent li {font-size: 13px;}
+   .titlepage h2 {
+    font-size: 39px;
+    line-height: 39px;
+   }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+    .site-navbar ul li {
+        padding-right: 7px;
+    }
+   ul.email li {
+
+    padding-right: 11px;
+}
+.willom  h1 {
+        font-size: 56px;
+        line-height: 70px;
+    }
+   
+   .about .titlepage {padding-bottom: 30px; max-width: inherit;}
+    .titlepage h2 {
+    font-size: 37px;
+    line-height: 37px;
+    }
+    .nostrud h3 {
+        font-size: 20px;
+        line-height: 21px;
+    }
+    .point h3 {
+    max-width: 159px;
+    height: 159px;
+}
+    .services_box h3 {
+    font-size: 22px;
+    line-height: 21px;
+   }
+   .veget {
+    padding: 30px 15px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  
+    
+   .willom h1 {
+    font-size: 49px;
+    line-height: 60px;}
+    #myCarousel .carousel-control-next {
+        right: 1%;
+    }
+    #myCarousel .carousel-control-prev {
+        left: 1%;
+    }
+   .titlepage h2 {
+    font-size: 46px;
+    line-height: 50px;}
+   
+   .about_img {
+    margin-top: 30px;
+}
+       .about .titlepage { max-width: inherit;}
+  
+    .d_none {
+        display: none !important;
+    }
+    .services_box {
+    max-width: 371px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+    .latest {
+        max-width: 370px;
+        margin: 0 auto;
+        margin-bottom: 55px;
+    }
+    .flot_right {float: inherit;}
+    ul.social_icon {
+    text-align: center;
+    margin-top: 20px;
+}
+    /* navbar css for mobile start */
+    .nav-toggler {
+        display: block;
+        position: absolute;
+        right: 15px;
+        z-index: 99999;
+    }
+    .site-navbar {
+        min-height: 60px;
+    }
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        left: -15px;
+        top: 60px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+        z-index: 99999;
+        box-shadow: 0 0 10px rgb(192, 190, 182);
+    }
+    .site-navbar ul li {
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+   .site-navbar ul li a {
+    padding: 0px 25px 0px 25px;
+    line-height: 40px;
+}
+    .site-navbar ul.open {
+        max-height: 100vh;
+        padding-bottom: 25px;
+        overflow: visible;
+    }
+    /* navbar css for mobile end */
+}
+
+@media (max-width: 575px) {
+   
+    .logo {
+        text-align: left;
+    }
+    .willom h1 {
+        font-size: 27px;
+line-height: 40px;padding: 46px 21px;
+    }
+    #myCarousel .carousel-control-next {
+        right: 1%;
+    }
+    #myCarousel .carousel-control-prev {
+        left: 1%;
+    }
+    .titlepage h2 {
+        font-size: 37px;
+        line-height: 45px;
+    }
+    .about_img {
+    margin-top: 30px;
+}
+       .about .titlepage { max-width: inherit;}
+       .custom {padding: 40px 12px;}
+       .services_box {
+    max-width: 371px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+    .latest {
+        max-width: 317px;
+        margin: 0 auto;
+       
+        margin-top: 30px;
+    }
+    .titlepage h2 {
+        line-height: 40px;
+        font-size: 28px;
+    }
+    .d_none {
+        display: none !important;
+    }
+       .flot_right {float: inherit;}
+    ul.social_icon {
+    text-align: center;
+    margin-top: 20px;
+}
+    /* navbar css for mobile start */
+    .navbar-area {
+        margin-top: -67px;
+    }
+    .nav-toggler {
+        display: block;
+        position: absolute;
+        right: 15px;
+        z-index: 99999;
+    }
+    .site-navbar {
+        min-height: 60px;
+    }
+    .site-navbar ul {
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        max-height: 0;
+        overflow: hidden;
+        transition: .3s;
+        z-index: 99999;
+        box-shadow: 0 0 10px rgb(192, 190, 182);
+    }
+    .site-navbar ul li {
+        width: 100%;
+        text-align: left;
+        padding-right: 0;
+    }
+       .site-navbar ul li a {
+    padding: 0px 25px 0px 25px;
+    line-height: 40px;
+}
+    .site-navbar ul.open {
+        max-height: 100vh;
+        padding-bottom: 25px;
+        overflow: visible;
+    }
+}
