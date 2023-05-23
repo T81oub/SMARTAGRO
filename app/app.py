@@ -1,12 +1,16 @@
 
-
 from flask import Flask, render_template, request, Markup
 import numpy as np
 import pandas as pd
 import pickle
 app=Flask(__name__)
 fertilizer_predict_model_path='models/fertilizer.pkl'
+crop_predict_path="models/crop.pkl"
+
+
 modelfertilizer = pickle.load(open(fertilizer_predict_model_path, 'rb'))
+modelcrop=pickle.load(open(crop_predict_path,'rb'))
+
 
 soil_types = np.array(['Sandy', 'Loamy', 'Black', 'Red', 'Clayey'])
 crop_types = np.array(['Maize', 'Sugarcane' ,'Cotton' ,'Tobacco' ,'Paddy' ,'Barley', 'Wheat', 'Millets',
@@ -16,9 +20,11 @@ def home():
     return render_template('index.html')
 @app.route('/fertilizer')
 def fertilizer_recommendation():
-   
-
     return render_template('fertilizer.html')
+@app.route('/crop')
+def crop_recommendation():
+    return render_template('crop.html')
+
 @app.route("/fertilizer_predict",methods=['POST'])
 def fertilizer_predict():
     if request.method == 'POST':
@@ -55,7 +61,10 @@ def fertilizer_predict():
         else:
             prediction="Urea"
     return render_template('fertilizer-result.html', prediction=prediction) 
+@app.route("/crop_prediction",method=['POST'])
+def crop_prediction():
 
+    return render_template("crop-result.html",prediction=prediction)
 if __name__ == "__main__":
     app.run(debug=True)
 
