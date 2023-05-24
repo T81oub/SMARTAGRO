@@ -1,0 +1,38 @@
+
+{% extends 'layout.html' %} {% block body %}
+
+
+<style>
+html body {
+  background-color:  #fcffe7;
+}
+.custom-image-class {
+    width: 400px; 
+    height: auto; 
+    margin-top: 50px;
+    border: 2px solid rgb(218, 246, 237); 
+    border-radius: 5px; 
+  }
+</style>
+<!--Form Section-->
+<br /><br />
+<h2 style="text-align: center; margin: 0px;margin-top: 50px; color: black">
+  <b>You should grow</b>
+</h2>
+
+<div class="container py-2 mx-auto my-50 h-10  " style="margin-left: 9rem; margin-bottom: 4rem;">
+  <div class="row">
+      <div class="col-sm py-2 py-md-3">
+          <div class="card card-body" style="justify-content: center;align-items: center; background-color:blanchedalmond">
+               <p class="text-center" style="color: black; font-size: 20px;">{{ prediction }}</p>
+               <div class="about_img">
+                <figure>
+                    <img src="{{ image }}" alt="#" class="custom-image-class">
+                  </figure>           
+             </div>
+          </div>
+      </div>
+  </div>
+</div>
+{% endblock %}
+
