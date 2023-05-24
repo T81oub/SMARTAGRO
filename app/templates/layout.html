@@ -49,12 +49,12 @@
                      <div class="navbar-area">
                         <nav class="site-navbar">
                            <ul>
-                              <li><a class="active" href="">Home</a></li>
+                              <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
                               <li>
-                                <a class="active" href="crop">Crop</a>
+                                <a class="active" href="{{ url_for('crop_recommendation') }}">Crop</a>
                             </li>
                             <li>
-                                <a class="active" href="fertilizer">Fertilizer</a>
+                                <a class="active" href="{{ url_for('fertilizer_recommendation') }}">Fertilizer</a>
                             </li>
                             <li>
                                 <a>Disease</a>
