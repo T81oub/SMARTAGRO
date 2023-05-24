@@ -51,13 +51,13 @@
                            <ul>
                               <li><a class="active" href="{{ url_for('home') }}">Home</a></li>
                               <li>
-                                <a class="active" href="{{ url_for('crop_recommendation') }}">Crop</a>
+                                <a href="{{ url_for('crop_recommendation') }}">Crop</a>
                             </li>
                             <li>
-                                <a class="active" href="{{ url_for('fertilizer_recommendation') }}">Fertilizer</a>
+                                <a href="{{ url_for('fertilizer_recommendation') }}">Fertilizer</a>
                             </li>
                             <li>
-                                <a>Disease</a>
+                                <a href="{{ url_for('fertilizer_recommendation') }}">Disease</a>
                             </li>
                            </ul>
                            <button class="nav-toggler">
@@ -99,12 +99,11 @@
                            <div class="hedingh3 text_align_left">
                               <h3> Explore</h3>
                               <ul class="menu_footer">
-                                 <li><a href="index.html">Home</a></li>
-                                 <li><a href="about.html">About</a></li>
-                                 <li><a href="service.html">Service</a></li>
-                                 <li><a href="Javascript:void(0)">Projects</a></li>
-                                 <li><a href="testimonail.html">Testimonail</a></li>
-                                 <li><a href="contact.html">Contact us</a></li>
+                                 <li><a href="{{ url_for('home') }}">Home</a></li>
+                                 <li><a href="{{ url_for('crop_recommendation') }}">Crop</a></li>
+                                 <li><a href="{{ url_for('fertilizer_recommendation') }}">Fertilizer</a></li>
+                                 <li><a href="{{ url_for('fertilizer_recommendation') }}">Disease</a></li>
+                                 
                               </ul>
                            </div>
                         </div>
