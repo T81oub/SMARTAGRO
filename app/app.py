@@ -8,6 +8,10 @@ app=Flask(__name__)
 fertilizer_predict_model_path='models/fertilizer.pkl'
 crop_predict_path="models/cropv2.pkl"
 
+
+diseases_model_path='models/diseasemodel.pth'
+
+
 folder = os.path.join('static','cropimages')
 app.config['UPLOAD_FOLDER'] = folder
 
