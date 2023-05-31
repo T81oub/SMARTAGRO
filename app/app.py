@@ -10,7 +10,7 @@ crop_predict_path="models/cropv2.pkl"
 
 
 diseases_model_path='models/diseasemodel.pth'
-
+diseases_model = ResNet9(3, len(disease_classes))
 
 folder = os.path.join('static','cropimages')
 app.config['UPLOAD_FOLDER'] = folder
