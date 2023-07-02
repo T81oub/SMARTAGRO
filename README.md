@@ -75,16 +75,13 @@ Before following the steps below, ensure that you have Git, Anaconda, or Minicon
    - It is recommended to clone the deploy branch to run the project locally. The following steps assume you have the deploy branch cloned.
 
 3. Once the project is cloned, open Anaconda Prompt in the directory where the project is located and run the following commands:
-   ```python
+   ```cmd
    cd app
    conda create -n "You-can-write-anything-here" python=3.6.12
    conda activate "You-can-write-anything-here"
    pip install -r requirement.txt
    python app.py
-
-     
-
-5. Open the provided localhost URL after running `app.py` and use the project locally in your web browser.
+4. Open the provided localhost URL after running `app.py` and use the project locally in your web browser.
 
 ## Demo
 
