@@ -1,4 +1,4 @@
-# SMARTAGRO
+# SMARTAGRO 🌱🌾
 SMARTAGRO is an innovative website that leverages the power of Machine Learning (ML) and Deep Learning (DL) to provide recommendations for crop selection, fertilizer usage, and disease identification in crops.
 
 
@@ -29,13 +29,17 @@ Corresponding code for this project is available on Kaggle Notebooks:
 - [Crop Recommendation](link_to_crop_recommendation_notebook)
 - [Disease Detection](link_to_disease_detection_notebook)
 
-## Built with
+## Technologies Used
 
-- Python
-- Flask
-- HTML/CSS
-- TensorFlow
-- Scikit-learn
+This project incorporates several modern technologies to deliver its functionalities:
+
+- **Python**: The core programming language used for building the project.
+- **Flask**: A lightweight and flexible web framework in Python for creating the website and handling HTTP requests.
+- **HTML/CSS**: The standard markup language and styling sheet used for designing and structuring the web pages.
+- **TensorFlow**: An open-source machine learning framework used for developing and training deep learning models.
+- **Scikit-learn**: A popular machine learning library in Python that provides a wide range of tools for data preprocessing, modeling, and evaluation.
+
+
 
 ## How to Use
 
