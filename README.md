@@ -33,11 +33,7 @@ Corresponding code for this project is available on Kaggle Notebooks:
 
 This project incorporates several modern technologies to deliver its functionalities:
 
-- **Python**: The core programming language used for building the project.
-- **Flask**: A lightweight and flexible web framework in Python for creating the website and handling HTTP requests.
-- **HTML/CSS**: The standard markup language and styling sheet used for designing and structuring the web pages.
-- **TensorFlow**: An open-source machine learning framework used for developing and training deep learning models.
-- **Scikit-learn**: A popular machine learning library in Python that provides a wide range of tools for data preprocessing, modeling, and evaluation.
+(https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![SciPy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow]
 
 
 
