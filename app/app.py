@@ -9,7 +9,7 @@ import torch
 from torchvision import transforms
 from PIL import Image
 from models.model import ResNet9
-
+from utils.disease import diseases
 
 disease_classes = ['Apple___Apple_scab',
                    'Apple___Black_rot',
@@ -176,9 +176,10 @@ def disease_predict():
          
 
         prediction = predict_image(img)
+        prediction = Markup(str(diseases[prediction]))
         
 
-        return render_template('crop-result.html', prediction=prediction)
+        return render_template('disease-result.html', prediction=prediction)
         
     
 
