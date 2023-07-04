@@ -80,15 +80,18 @@ Before following the steps below, ensure that you have Git, Anaconda, or Minicon
 
 ### Crop Recommendation System
 
-[Demo](link_to_crop_recommendation_demo)
+![Screenshot 1](images/image1.png)
+![Screenshot 1](images/image2.png)
 
 ### Fertilizer Suggestion System
 
-[Demo](link_to_fertilizer_suggestion_demo)
+![Screenshot 1](images/image3.png)
+![Screenshot 1](images/image4.png)
 
 ### Disease Detection System
+![Screenshot 1](images/image5.png)
+![Screenshot 1](images/image6.png)
 
-[Demo](link_to_disease_detection_demo)
 
 Feel free to explore the functionalities and enjoy using the SMARTARGO website!
 
