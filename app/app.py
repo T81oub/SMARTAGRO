@@ -51,7 +51,7 @@ disease_classes = ['Apple___Apple_scab',
                    'Tomato___healthy']
 
 app=Flask(__name__)
-fertilizer_predict_model_path='models/fertilizer.pkl'
+fertilizer_predict_model_path='models/classifier.pkl'
 crop_predict_path="models/cropv2.pkl"
 #####################################################################
 disease_model_path = 'models/plant_disease_model.pth'
