@@ -5,7 +5,7 @@ diseases = {
         <br/><br/> 1. Apple scab is caused by the fungus Venturia inaequalis. It primarily overwinters in fallen leaves and in the soil. Disease development is favored by wet, cool weather that generally occurs in spring and early summer.
 
         <br/> 2. Fungal spores are carried by wind, rain, or splashing water from the ground to flowers, leaves, or fruit. During damp or rainy periods, newly opening apple leaves are extremely susceptible to infection. The longer the leaves remain wet, the more severe the infection will be. Apple scab spreads rapidly between 55-75 degrees Fahrenheit.
-        <br/><br/> How to prevent/cure the disease <br/>
+        <br/><br/>  to prevent/cure the disease <br/>
         <br/>1. Choose apple varieties that are resistant to apple scab when possible.
 
         <br/>2. Regularly rake under trees and promptly destroy infected leaves to reduce the number of fungal spores available to start the disease cycle over again next spring.
